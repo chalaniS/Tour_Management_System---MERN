@@ -31,6 +31,21 @@ const Home = () => {
                                     repellendus porro voluptatibus accusamus asperiores. Iste.</p>
                             </div>
                         </Col>
+                        <Col lg='2'>
+                            <div className="hero_img-box">
+                                <img src={heroImg} alt="" />
+                            </div>
+                        </Col>
+                        <Col lg='2'>
+                            <div className="hero_img-box mt-4">
+                                <video src={heroVideo} alt="video" controls />
+                            </div>
+                        </Col>
+                        <Col lg='2'>
+                            <div className="hero_img-box mt-5">
+                                <img src={heroImg02} alt="" />
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </section>
