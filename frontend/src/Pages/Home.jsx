@@ -9,6 +9,7 @@ import worldImg from '../assets/images/world.png'
 import Subtitle from './../shared/Subtitle'
 import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList'
+import FeaturedTourList from '../components/Featured-tours/FeaturedTourList';
 
 const Home = () => {
     return (
@@ -67,7 +68,21 @@ const Home = () => {
                 </Container>
             </section>
             {/* featured tour section start */}
+
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg="12"></Col>
+                        <Subtitle subtitle={"Explore"} />
+                        <h2 className="featured_tour-title">Our feature tours</h2>
+                        <FeaturedTourList />
+                    </Row>
+                </Container>
+
+            </section>
             {/* featured tour section end */}
+
+
 
         </>
     )
